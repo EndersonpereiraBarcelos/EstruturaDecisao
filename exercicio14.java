@@ -1,33 +1,29 @@
 import java.util.Scanner;
-public class exercicio14 {
 
-   
-    public static void main(String[] args) {
-        
-        double nota1, nota2, media;
-        
+public class ex20 {
+
+    public static void main(String[]args){
+
         Scanner sc = new Scanner(System.in);
-        
-        System.out.println("Informe a sua primeira nota: ");
-        nota1 = sc.nextDouble();
-        
-        System.out.println("Informe a sua segunda nota: ");
-        nota2 = sc.nextDouble();
-        
-        media = (nota1 + nota2) / 2;
-        
-        if(media == 10){
+
+        System.out.println("Informe  primeira nota ");
+        double n1 = sc.nextDouble();
+
+        System.out.println("Informe segunda nota");
+        double n2 = sc.nextDouble();
+
+        System.out.println("Informe sua terceira nota");
+        double n3 = sc.nextDouble();
+
+        double result = (n1 + n2 + n3) / 2;
+
+        if( 8 >= 10){
+            System.out.println("Aprovado com Distinção");
+        }else if(result>= 7){
             System.out.println("Aprovado");
-        }else if( 9.0 >= 10){
-        System.out.println("nota A aprovado");
-        }else if (7.5 >= 9.0){
-            System.out.println("nota B aprovado");
-        }else if(6.0 >= 7.5){
-            System.out.println("nota C aprovado");
-        }else if (4.0 >= 6.0){
-            System.out.println("nota D reprovado");
-        }else if(4.0 >= 0){
-            System.out.println("nota E reprovado");
+        }else if(0 >= 7){
+            System.out.println("Reprovado");
         }
+        System.out.println("Media de " + result);
     }
 }
