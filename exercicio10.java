@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class exercicio10{
     public static void main(String[]args){
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc =  new Scanner(System.in);
         System.out.print("Voce estuda em qual turno? M-matutino ou V-Vespertino ou N- Noturno ");
-        String turno = scanner.next();
+        String turno = sc.next();
 
         switch(turno){
             case "M", "m":{

@@ -31,16 +31,16 @@ public class exercicio13 {
                 System.out.println("Quinta");
             }break;
                 
-                case"6":{
+            case"6":{
                     
-                    System.out.println("Sexta");
-                }break;
+                System.out.println("Sexta");
+            }break;
                     
-                case "7":{
-                    System.out.println("Sabado");
-                }break;
+            case "7":{
+                System.out.println("Sabado");
+            }break;
                     
-                default:
+            default:
                 System.out.println("Valor Invalido");
         }              
     }

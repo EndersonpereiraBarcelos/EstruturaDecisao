@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class exercicio8 {
 
     public static void main(String[]args){
-        double produto1, produto2, produto3;
+        //double produto1, produto2, produto3;
 
-        Scanner pd = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Valor do Produto ");
 
-        produto1 = pd.nextDouble();
+        double produto1 = sc.nextDouble();
 
-        produto2 = pd.nextDouble();
+        double produto2 = sc.nextDouble();
 
-        produto3 = pd.nextDouble();
+        double produto3 = sc.nextDouble();
 
         if(produto1 < produto2 && produto1 < produto3){
             System.out.print("Valor do primeiro " + produto1+ " produto ");
@@ -23,6 +23,5 @@ public class exercicio8 {
         }else{
             System.out.println("Os valores são os mesmos");
         }
-    }
-    
+    }   
 }

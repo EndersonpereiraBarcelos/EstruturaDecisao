@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex20 {
+public class exercicio20 {
 
     public static void main(String[]args){
 

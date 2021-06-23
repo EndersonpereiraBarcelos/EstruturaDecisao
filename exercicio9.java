@@ -5,15 +5,15 @@ public class exercicio9 {
     public static void main(String[]args){
         double n1, n2, n3;
 
-        Scanner nm = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Digite o primeiro valor ");
-        n1 = nm.nextDouble();
+        n1 = sc.nextDouble();
 
         System.out.println("Digite o segundo  valor ");
-        n2 = nm.nextDouble();
+        n2 = sc.nextDouble();
 
         System.out.println("Digite o terceiro valor ");
-        n3 = nm.nextDouble();
+        n3 = sc.nextDouble();
 
         if(n1 > n2 && n1 > n3){
             System.out.println(n1 + " " + n2 + " " + n3);
@@ -30,6 +30,5 @@ public class exercicio9 {
         }else {
             System.out.println("Os valores são os mesmos");
         }
-
     }
 }

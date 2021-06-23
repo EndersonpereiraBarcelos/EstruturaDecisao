@@ -31,6 +31,7 @@ public class exercicio7{
             System.out.println("O numero " + num2 + " é o menor");
         }else if (num3 < num1 && num3 < num2){
             System.out.println("O numero " + num3 + " é o menor");
-     }
+     
+        }
     }
 }
